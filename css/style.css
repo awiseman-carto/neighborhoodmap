@@ -1,0 +1,7 @@
+/* Stylesheet by Andrew Wiseman, 2018 */
+
+#mapid { height: 400px;
+}
+
+#map { z-index:5;
+}

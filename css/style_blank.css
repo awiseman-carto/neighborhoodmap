@@ -1,0 +1,58 @@
+/* Stylesheet by Andrew Wiseman, 2018 */
+
+html, body, #map{
+  height: 100%;
+  width: 100%;
+  font-family: "PT Sans", Corbel, sans-serif;
+}
+
+#infopane {
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    z-index: 90;
+}
+
+#myDivIcon {
+  text-align: center; /* Horizontally center the text (icon) */
+  line-height: 20px; /* Vertically center the text (icon) */
+}  
+
+#geojson {
+	font-size: 0.8em;
+	font-family: "Courier New", Courier, serif;
+}
+
+.dialog_style {
+	font-size: 0.8em;
+	font-family: "Courier New", Courier, serif;
+}
+
+.ui-dialog { z-index: 1000 !important ;}
+
+.hidden { display: none;
+	visibility: hidden;
+ }
+ 
+.loading-indicator {
+  height: 80px;
+  width: 80px;
+  background: url( '../images/loading.gif' );
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+ 
+.loading-indicator-overlay {
+  background-color: #FFFFFF;
+  opacity: 0.6;
+  filter: alpha(opacity = 60);
+}
+
+#activity_pane {
+	position: fixed;
+	height: 80px;
+	width: 80px;
+	top: 50%;
+	left: 50%;
+	
+}
