@@ -473,11 +473,12 @@ poly data here 50.7%207.1%2050.7%207.2%2050.75%207.15%22);
 		//alert("error"); }
 				$("#ptError").dialog({
 					maxWidth:500,
-					maxHeight: 400,
+					maxHeight: 200,
 					width: 500,
-					height: 400
+					height: 200
 				});
 				softErase ();
+				$('#activity_pane').hideLoading();
 	})
 
 };
